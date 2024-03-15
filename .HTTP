@@ -1,0 +1,30 @@
+GET http://localhost:3000/selecoes
+
+###
+
+GET http://localhost:3000/selecoes/4
+
+
+###
+
+POST http://localhost:3000/selecoes
+Content-Type: application/json
+
+{
+    "selecao": "Bolívia",
+    "grupo": "D"
+}
+
+###
+
+PUT http://localhost:3000/selecoes/10
+Content-Type: application/json
+
+{
+    "selecao": "Coréia",
+    "grupo": "D"
+}
+
+###
+
+DELETE http://localhost:3000/selecoes/11
